@@ -116,16 +116,6 @@ def main():
 
     question_list_prepared = [prepare_question(x, stop_words, mystemmer) for x in question_list]
 
-    # test_questions = [
-    #     "I would like to make a student visa?",
-    #     "What material i need to prepare?"
-    # ]
-
-    # print('')
-    # for qq in test_questions:
-    #     print('QUESTION:', qq)
-    #     print('ANSWER:', top5results(qq, question_list, answer_list)[0])
-
     # evaluation
     print('Start evaluating...')
     countAll = 0
