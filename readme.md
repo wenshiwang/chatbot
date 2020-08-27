@@ -11,8 +11,4 @@ source venv/bin/activate
 python fetch-dataset.py
 python chatbot.py
 
-# Note
- - Edit dataset/eva.txt to add more evaluation questions
- - See evaluation in dataset/eva-result.txt
-
 
